@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .gradientBg {
+        background-image: linear-gradient(to top, #010d1f, #071c31, #092943, #073757, #00466b);
+    }
+    .languages {
+        color: #7dd3fc;
+    }
+    .navbar {
+        @apply md:flex md:justify-between items-center gap-10 text-white font-bold text-sm w-full;
+    }
+}
